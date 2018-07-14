@@ -14,6 +14,6 @@ class FormsLab::App < Sinatra::Base
     end
 
     @ships = Ship.all
-    erb :student
+    erb :show
 
 end
