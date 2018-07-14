@@ -1,6 +1,6 @@
 require_relative 'config/environment'
 
-class App < Sinatra::Base
+class FormsLab::App < Sinatra::Base
 
   get '/' do
     erb :new
