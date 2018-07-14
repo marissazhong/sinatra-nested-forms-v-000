@@ -10,9 +10,9 @@ class Ship
     @@all.clear
   end
 
-  def initialize
-    @name = name
-    @booty = booty
+  def initialize(args)
+    @name = args[:name]
+    @booty = args[:booty]
     @@all << self
   end
 
