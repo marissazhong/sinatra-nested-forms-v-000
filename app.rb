@@ -7,10 +7,10 @@ class FormsLab::App < Sinatra::Base
   end
 
   post '/pirates' do
-  @pirate = Pirate.new
+  @pirate = Pirate.new(params[:pirate])
 
-  params[:student][:courses].each do |details|
-    Course.new(details)
+  params[:pirate][:ships].each do |ship|
+    Ship.new(ship)
   end
 
   @courses = Course.all
