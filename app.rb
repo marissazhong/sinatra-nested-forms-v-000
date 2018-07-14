@@ -15,5 +15,6 @@ class FormsLab::App < Sinatra::Base
 
     @ships = Ship.all
     erb :show
+  end
 
 end
