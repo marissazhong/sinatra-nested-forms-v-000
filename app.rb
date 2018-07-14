@@ -3,8 +3,8 @@ require_relative 'config/environment'
 module FormsLab
   class App < Sinatra::Base
 
-    get '/' do
-      erb :views/:new
+    get '/views' do
+      erb :new
     end
 
     post '/pirates' do
