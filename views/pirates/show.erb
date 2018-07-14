@@ -7,25 +7,14 @@
 
 <h2>First Ship</h2>
 <div class="ship">
-  <h3>Ship Name: <%= @ships.0.name %></h3><br>
-  <h3>Ship Type: <%= @ships.0.type %></h3>
-  <h3>Ship Booty: <%= @ships.0.booty %></h3>
+  <h3>Ship 1 Name: <%= @ships.0.name %></h3><br>
+  <h3>Ship 1 Type: <%= @ships.0.type %></h3>
+  <h3>Ship 1 Booty: <%= @ships.0.booty %></h3>
 </div><br>
 
-<h2>Display your second ship here</h2>
-  
-
-<h1>Pirate</h1>
-
-<div class="pirate">
-  <h3>Name: <%= @student.name %></h3><br>
-  <h4>Grade: <%= @student.grade %></h4>
+<h2>Second Ship</h2>
+<div class="ship">
+  <h3>Ship 2 Name: <%= @ships.1.name %></h3><br>
+  <h3>Ship 2 Type: <%= @ships.1.type %></h3>
+  <h3>Ship 2 Booty: <%= @ships.1.booty %></h3>
 </div><br>
-
-<h1>Ships</h1>
-<% @courses.each do |course| %>
-  <div class="course">
-    <p>Name: <%= course.name %></p><br>
-    <p>Topic: <%= course.topic %></p><br>
-  </div><br>
-<% end %>
