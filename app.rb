@@ -6,7 +6,7 @@ class FormsLab::App < Sinatra::Base
     erb :new
   end
 
-  post '/student' do
+  post '/pirates' do
   @student = Student.new(params[:student])
 
   params[:student][:courses].each do |details|
